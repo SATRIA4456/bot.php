@@ -1,0 +1,21 @@
+clear
+
+blue='\e[1;34m' green='\e[1;32m' purple='\e[1;35m' cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m' yellow='\e[1;33m'
+NOW=`date "+%d.%m.%Y"` TIME=`date "+%H:%M"`
+echo -e $green '======================================================================' echo -e $red
+figlet -f slant " SHINTA "
+echo -e $green '======================================================================' echo -e $cyan
+echo " Hostname : " $HOSTNAME"@biuku_mu" echo " Username : " $USERNAME " biuku_mu " echo " Date : " $NOW
+echo " Time : " $TIME
+echo ""
+tput cup 15 1
+uname -s -v -m
+echo ""
+tput setaf 1
+echo " Welcome My Love SHINTA"
+tput setaf 2
+echo ' ______________________________________________________________________' echo ""
+
+~ $
